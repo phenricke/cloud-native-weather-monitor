@@ -24,3 +24,8 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   ```powershell
   az login
   ```powershell
+- Instalação do Bicep CLI:
+  ```bash
+  az bicep install
+  az bicep version
+  ```bash
