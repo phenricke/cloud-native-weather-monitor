@@ -20,12 +20,3 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   git config --global user.name "Pedro Henrique"
   git config --global user.email "seuemail@exemplo.com"# Cloud-Native Weather Monitor
   ```bash
--  Instalação e teste do Azure CLI:
-  ```bash
-  az login
-  ```bash
-- Instalação do Bicep CLI:
-```bash
-  az bicep install
-  az bicep version
-```bash
