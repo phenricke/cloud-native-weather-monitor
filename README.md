@@ -28,7 +28,7 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   ```
 ### 2. Clonagem e estrutura inicial do repositório no GitHub
   ```powershell
-  git clone https://github.com/<seu-usuario>/cloud-native-weather-monitor.git
+  git clone https://github.com/phenricke/cloud-native-weather-monitor.git
   cd cloud-native-weather-monitor
 
   mkdir frontend
@@ -40,3 +40,18 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   echo "# Cloud-Native Weather Monitor" > README.md
   echo "" > docker-compose.yml
   ```
+### 2. Commit inicial
+  ```powershell
+  git add .
+  git commit -m "Estrutura inicial do projeto Cloud-Native Weather Monitor"
+  git push origin main
+  ```
+### 4.Estrutura criada
+  cloud-native-weather-monitor/
+  │── frontend/          # HTML/JS/CSS
+  │── backend/           # Código da API
+  │── nginx/             # Configuração + Dockerfile
+  │── k8s/               # Manifests Kubernetes
+  │── infra/             # Arquivos Bicep (IaC)
+  │── docker-compose.yml
+  │── README.md
