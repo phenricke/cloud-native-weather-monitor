@@ -1,6 +1,6 @@
-# 🌦️ Cloud-Native Weather Monitor
+# Cloud-Native Weather Monitor
 
-## 📌 Visão Geral
+## Visão Geral
 Este projeto é um **Monitor de Clima** desenvolvido em uma arquitetura **cloud-native**, utilizando:
 - **Frontend** em HTML/JS
 - **Backend** em Node.js/Python
@@ -13,8 +13,6 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
 
 ---
 
-## 🪜 Etapas já concluídas
-
 ### 1. Preparação do ambiente local
 - Instalação do **Git** no Windows.
 - Configuração de nome e e-mail:
@@ -22,3 +20,7 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   git config --global user.name "Pedro Henrique"
   git config --global user.email "seuemail@exemplo.com"# Cloud-Native Weather Monitor
   ```bash
+-  Instalação e teste do Azure CLI:
+  ```powershell
+  az login
+  ```powershell
