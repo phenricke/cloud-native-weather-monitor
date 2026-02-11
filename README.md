@@ -19,4 +19,5 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   ```bash
   git config --global user.name "Pedro Henrique"
   git config --global user.email "seuemail@exemplo.com"# Cloud-Native Weather Monitor
-  ```bash
+- Instalação e teste do Azure CLI:
+  
