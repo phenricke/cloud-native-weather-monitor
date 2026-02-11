@@ -23,7 +23,7 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
 -  Instalação e teste do Azure CLI:
   ```powershell
   az login
-  ```powershell
+  
 - Instalação do Bicep CLI:
   ```bash
   az bicep install
