@@ -15,11 +15,15 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
 
 ### 1. Preparação do ambiente local
 - Instalação do **Git** no Windows.
-- Configuração de nome e e-mail:
+- Instalação e teste do **Azure CLI**
   ```bash
-  git config --global user.name "Pedro Henrique"
-  git config --global user.email "seuemail@exemplo.com"# Cloud-Native Weather Monitor
-- Instalação e teste do Azure CLI:
-  ```bash
+  az --version
   az login
+  ```
+>O comando  abre o navegador para autenticação na sua conta Azure.
 - Instalação do Bicep CLI:
+  ```bash
+  az bicep install
+  az bicep version
+  ```
+### 2. Preparação do ambiente local
