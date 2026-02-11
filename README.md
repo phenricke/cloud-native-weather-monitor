@@ -20,10 +20,23 @@ O objetivo é aprender e demonstrar como construir e implantar uma aplicação m
   az --version
   az login
   ```
->O comando  abre o navegador para autenticação na sua conta Azure.
+> O comando az login abre o navegador para autenticação na sua conta Azure.
 - Instalação do Bicep CLI:
   ```bash
   az bicep install
   az bicep version
   ```
-### 2. Preparação do ambiente local
+### 2. Clonagem e estrutura inicial do repositório no GitHub
+  ```powershell
+  git clone https://github.com/<seu-usuario>/cloud-native-weather-monitor.git
+  cd cloud-native-weather-monitor
+
+  mkdir frontend
+  mkdir backend
+  mkdir nginx
+  mkdir k8s
+  mkdir infra
+
+  echo "# Cloud-Native Weather Monitor" > README.md
+  echo "" > docker-compose.yml
+  ```
